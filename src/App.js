@@ -11,7 +11,6 @@ import './App.css';
   const APP_ID = "ca0de5ec";
   const APP_KEY = "b8385036c3aa2f5ed464c36331d62dc5";
   const [recipes, setRecipes] = useState([]);
-  // const [counting, setCounting] = useState(0); 
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('chocolate');
  
@@ -55,13 +54,7 @@ import './App.css';
       />
       ))}
       </div>
-      {/* <p>You clicked {counting} times</p>
-     <button onClick={() => setCounting(counting + 1)}>
-       Click me plus
-     </button>
-     <button onClick={() => setCounting(counting - 1)}>
-     Click me minus
-   </button>*/}
+     
     </div>
      
   );
