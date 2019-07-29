@@ -11,9 +11,9 @@ import './App.css';
   const APP_ID = "ca0de5ec";
   const APP_KEY = "b8385036c3aa2f5ed464c36331d62dc5";
   const [recipes, setRecipes] = useState([]);
-  const [counting, setCounting] = useState(0);
+  // const [counting, setCounting] = useState(0); 
   const [search, setSearch] = useState('');
-  const [query, setQuery] = useState('pizza');
+  const [query, setQuery] = useState('chocolate');
  
   useEffect(()=>{
      getRecipes ();
