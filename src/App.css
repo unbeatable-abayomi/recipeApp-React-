@@ -1,14 +1,12 @@
 .App, body {
 	min-height: 100vh;
 	/* background-image: linear-gradient(45deg,#ff9a9e 0%, #fad0c4 99%,#fad0c4 10%); */
-	background-color: #ebc31d;
+	/* background-color: #ebc31d; */
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 	font-family: 'Ubuntu', sans-serif;
 }
-body
-/* .color-change-3x {
-	-webkit-animation: color-change-3x 4s linear infinite alternate both;
-	animation: color-change-3x 4s linear infinite alternate both;
-} */
+
+
 .search-form {
 	min-height: 10vh;
 	display: flex;
@@ -17,9 +15,12 @@ body
 }
 .search-bar {
 	width: 45%;
-	border: none;
+	/* border: none; */
 	padding: 10px;
 	border-radius: 6px;
+	/* border: none; */
+	/* border-color: transparent; */
+	border-right-style:  10px solid red;
 }
 .search-button {
 	background: lightcoral;

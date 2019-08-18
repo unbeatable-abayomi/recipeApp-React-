@@ -37,8 +37,24 @@ const App = () => {
 	return (
 		<div className="App color-change-3x">
 			<h1 className="meal-ingridio-text">Meal-Ingridio</h1>
+			<center>
+				<h3>
+					This application gives you different types of recipe,one can cook by just searching for a word..e.g
+					Chicken, Pork, etc
+				</h3>
+			</center>
+
 			<form onSubmit={getSearch} className="search-form">
-				<input className="search-bar" type="text" value={search} onChange={updateSearch} />
+				<input
+					className="search-bar"
+					autoComplete="on"
+					placeholder="enter a word e.g Salad, Rice, Chicken ,Pork etc"
+					type="text"
+					value={search}
+					onChange={updateSearch}
+					required
+				/>
+
 				<button className="search-button" type="submit">
 					{' '}
 					search
