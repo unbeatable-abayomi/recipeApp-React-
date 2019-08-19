@@ -38,7 +38,7 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .meal-ingridio-text {
 	text-align: center;
@@ -54,25 +54,5 @@ body {
  * animation color-change-3x
  * ----------------------------------------
  */
-@-webkit-keyframes color-change-3x {
-	0% {
-		background: #19dcea;
-	}
-	50% {
-		background: #b22cff;
-	}
-	100% {
-		background: #ea2222;
-	}
-}
-@keyframes color-change-3x {
-	0% {
-		background: #19dcea;
-	}
-	50% {
-		background: #b22cff;
-	}
-	100% {
-		background: #ea2222;
-	}
-}
+
+
