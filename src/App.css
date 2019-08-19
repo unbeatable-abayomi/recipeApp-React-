@@ -1,4 +1,5 @@
-.App, body {
+.App,
+body {
 	min-height: 100vh;
 	/* background-image: linear-gradient(45deg,#ff9a9e 0%, #fad0c4 99%,#fad0c4 10%); */
 	/* background-color: #ebc31d; */
@@ -6,7 +7,12 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
-
+.title-text {
+	font-size: 25px;
+}
+.calories {
+	margin-bottom: 1.2rem;
+}
 .search-form {
 	min-height: 10vh;
 	display: flex;
@@ -15,19 +21,18 @@
 }
 .search-bar {
 	width: 45%;
-	/* border: none; */
 	padding: 10px;
 	border-radius: 6px;
-	/* border: none; */
-	/* border-color: transparent; */
-	border-right-style:  10px solid red;
+	border-right-style: 10px solid red;
 }
 .search-button {
-	background: lightcoral;
+	background: rgb(243, 64, 64);
 	border: none;
 	padding: 10px 20px;
 	color: white;
+	font-family: 'Ubuntu', sans-serif;
 	border-radius: 5px;
+	font-size: 16px;
 }
 .recipes {
 	display: flex;

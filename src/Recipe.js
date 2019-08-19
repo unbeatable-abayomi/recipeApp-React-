@@ -4,13 +4,18 @@ import style from './recipe.module.css';
 const Recipe = ({ title, calories, image, ingredients }) => {
 	return (
 		<div className={style.recipe}>
-			<h1>Title: {title}</h1>
+			<center>
+				<h2>Recipe</h2>
+				<span className="title-text">{title} </span>
+			</center>
 
-			<ol>{ingredients.map((ingredient) => <li key={ingredient.text}>{ingredient.text}</li>)}</ol>
+			<img className={style.image} id="image" src={image} alt="images" />
+			<ol className="ingredients">
+				{ingredients.map((ingredient) => <li key={ingredient.text}>{ingredient.text}</li>)}
+			</ol>
 
-			<p>Carlories: {calories}</p>
-
-			<img className={style.image} id="image" src={image} alt="" />
+			<h4>Carlories</h4>
+			<span className="calories"> {calories}</span>
 		</div>
 	);
 };
